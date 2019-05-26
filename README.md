@@ -15,9 +15,9 @@ DATABASE USED: SQLITE
 BACKEND ENVIRONMENT: Python
 
 
-TEAM MEMBERS:              GITHUB ID:
--------------------------------------------
-Amit Sarkar               amitXsarkar
-Lalitha Eleswarapu       lalithaeleswarapu
-Aayush Garg                aayushgarg-03
-Piyush Gupta                 guptajiiiiii
+TEAM MEMBERS:          |    GITHUB ID:
+-----------------------|------------------
+Amit Sarkar            |  amitXsarkar
+Lalitha Eleswarapu     |  lalithaeleswarapu
+Aayush Garg            |  aayushgarg-03
+Piyush Gupta           |  guptajiiiiii
