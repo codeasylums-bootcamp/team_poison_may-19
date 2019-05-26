@@ -35,14 +35,14 @@ class User:
         
         try:
             data = cursor.execute('SELECT * FROM users WHERE username=?', (username,)).fetchone()
-            data = {
-                'username':data[1],
-                'password':data[2],
-                'email':data[3],
-                'name':data[4]
-            }
 
             if data:
+                data = {
+                    'username':data[1],
+                    'password':data[2],
+                    'email':data[3],
+                    'name':data[4]
+                }
                 return cls(data)
         except:
             cursor.execute('CREATE TABLE users (id INTEGER PRIMARY KEY, username TEXT, password TEXT, email TEXT, name TEXT)')
