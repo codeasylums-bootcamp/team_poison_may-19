@@ -53,6 +53,10 @@ class User:
 def main():
     return render_template('index.html')
 
+@app.route("/details",methods=['GET'])
+def det():
+    return render_template('details.html')
+
 @app.route("/signup",methods=['GET'])
 def sgnup():
     return render_template('signup.html')
